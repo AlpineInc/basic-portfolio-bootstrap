@@ -1,0 +1,26 @@
+.div-aboutme{
+	padding: 30px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+}
+
+.h1-aboutme{
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #dddddd;
+	padding-bottom: 20px;
+	color: #4aaaa5;
+}
+
+
+.img-me {
+	margin-top: 25px;
+}
+
+.p-aboutme{
+		margin-top: 25px;
+}
