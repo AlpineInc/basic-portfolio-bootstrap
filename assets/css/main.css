@@ -1,5 +1,4 @@
 body{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-image: url("../images/background.png");
 	background-repeat: repeat;
@@ -15,21 +14,6 @@ body{
 	background-color: #4aaaa5;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
-    margin-bottom: 120px;
-}
-
-.img-connect {
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin-top: 25px;
-    margin-right: 10px;
-}
-
 #section-contactme{
 	height: 200px;
 	padding: 30px;
@@ -37,10 +21,9 @@ body{
 	border-width: 1px;
 	border-color: #dddddd;
 	background-color: #ffffff;
-	
 }
 
-#h2-contactme{
+.h2-contactme{
 	font-size: 20px;
 	font-weight: bold;
 	padding-bottom: 20px;
@@ -50,7 +33,7 @@ body{
 	border-bottom-color: #dddddd;
 }
 
-.img-contactlink{
+.img-contactme{
 	width: 50px;
 	height: 50px;
 	float: left;
@@ -58,10 +41,16 @@ body{
 	margin-right: 10px;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+    margin-bottom: 120px;
+}
+
 .div-footer {
     width: 100%;
     height: 80px;
-    background-color: #343a40;
     border-style: solid;
     border-top-width: 5px;
     border-color: #4aaaa5;
@@ -73,5 +62,5 @@ body{
     text-align: center;
     font-size: 12px;
     font-weight: bold;
-    color: lightgrey;
+    color: white;
 }
