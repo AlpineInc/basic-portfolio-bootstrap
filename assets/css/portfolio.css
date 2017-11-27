@@ -21,3 +21,12 @@
 	font-weight: bold;
 	color: #4aaaa5;
 }
+
+.carousel-inner > .item > img{
+	width: 100%;
+	margin: auto;
+}
+.card-title{
+	background-color: #4aaaa5;
+	width: 100%;
+}
