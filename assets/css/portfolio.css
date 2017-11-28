@@ -26,7 +26,18 @@
 	width: 100%;
 	margin: auto;
 }
+
+.card{
+    
+}
 .card-title{
 	background-color: #4aaaa5;
-	width: 100%;
+    position: relative; 
+    top: 130px;
+    color: white;
+}
+
+.card-body{
+    height: 200px; 
+    background-image: url("../images/portfolio.png");
 }
