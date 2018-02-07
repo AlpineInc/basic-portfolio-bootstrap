@@ -41,3 +41,10 @@
     height: 200px; 
     background-image: url("../images/portfolio.png");
 }
+
+#cardLiri{
+    height: 200px; 
+    background-image: url("../images/NodeJS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
